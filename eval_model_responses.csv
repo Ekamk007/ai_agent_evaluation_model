@@ -1,0 +1,235 @@
+promptid,category,model,prompt,response
+H2,History,qwen/qwen3-next-80b-a3b-instruct,In which year did World War II end?,"World War II ended in **1945**.  
+
+The war in Europe concluded on **May 8, 1945** (V-E Day), after Germany’s unconditional surrender. The war officially ended globally on **September 2, 1945**, when Japan formally surrendered aboard the USS Missouri, marking V-J Day."
+S2,Science,qwen/qwen3-next-80b-a3b-instruct,What planet is known as the Red Planet?,"The planet known as the Red Planet is **Mars**. It gets this nickname because of its reddish appearance, which is caused by iron oxide (rust) on its surface."
+M2,Mathematics,qwen/qwen3-next-80b-a3b-instruct,Solve for x: 2x + 6 = 14.,"We are given the equation:
+
+$$
+2x + 6 = 14
+$$
+
+### Step 1: Subtract 6 from both sides
+$$
+2x = 14 - 6
+$$
+$$
+2x = 8
+$$
+
+### Step 2: Divide both sides by 2
+$$
+x = \frac{8}{2}
+$$
+$$
+x = 4
+$$
+
+### ✅ Final Answer:
+$$
+x = 4
+$$"
+P2,Philosophy,qwen/qwen3-next-80b-a3b-instruct,What is utilitarianism?,"Utilitarianism is a normative ethical theory that proposes that the best action is the one that maximizes overall happiness or utility for the greatest number of people. Rooted in the philosophy of Jeremy Bentham and later developed by John Stuart Mill, it holds that moral decisions should be based on their consequences—specifically, the amount of pleasure or well-being they produce versus pain or suffering. It is a form of consequentialism, meaning the morality of an act is judged by its outcomes, not by intentions or rules. The core principle is often summarized as “the greatest good for the greatest number.”"
+E2,English,qwen/qwen3-next-80b-a3b-instruct,What is the past tense of the verb 'go'?,The past tense of the verb **'go'** is **'went'**.
+R2,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,"The train travels 60 kilometers in 1 hour, so its speed is **60 km/h**.
+
+To find the distance traveled in 3 hours at the same speed:
+
+$$
+60 \text{ km/h} \times 3 \text{ h} = 180 \text{ km}
+$$
+
+**Answer: 180 kilometers**"
+C2,Coding,qwen/qwen3-next-80b-a3b-instruct,What is the output of print(2 + 3 * 4) in Python?,"The output of `print(2 + 3 * 4)` in Python is:
+
+```
+14
+```
+
+### Explanation:
+Python follows the **order of operations** (PEMDAS/BODMAS), where multiplication (`*`) has higher precedence than addition (`+`).
+
+So:
+- `3 * 4 = 12`
+- `2 + 12 = 14`
+
+Thus, `print(2 + 3 * 4)` outputs `14`."
+O2,Geography,qwen/qwen3-next-80b-a3b-instruct,Which is the largest ocean on Earth?,The largest ocean on Earth is the **Pacific Ocean**. It covers approximately 63 million square miles (165 million square kilometers) and contains more than half of the free water on Earth. It stretches from the Arctic in the north to the Southern Ocean in the south and is bounded by Asia and Australia to the west and the Americas to the east.
+O5,Technology,qwen/qwen3-next-80b-a3b-instruct,What does CPU stand for?,CPU stands for **Central Processing Unit**.
+O7,Economics,qwen/qwen3-next-80b-a3b-instruct,What is inflation?,"Inflation is the rate at which the general level of prices for goods and services rises over time, leading to a decrease in the purchasing power of money. In other words, as inflation increases, each unit of currency buys fewer goods and services. It is typically measured as an annual percentage change using indices like the Consumer Price Index (CPI). Moderate inflation is often a sign of a growing economy, but high or unpredictable inflation can erode savings and disrupt economic stability."
+O8,Sports,qwen/qwen3-next-80b-a3b-instruct,In which sport is the term 'checkmate' used?,"The term **'checkmate'** is used in the sport of **chess**.
+
+It refers to a position in which a player's king is under threat of capture (in ""check"") and there is no legal move to escape that threat, thus ending the game in victory for the attacking player."
+O10,Current Knowledge,qwen/qwen3-next-80b-a3b-instruct,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called **evaporation**.
+O13,Health,qwen/qwen3-next-80b-a3b-instruct,Why is regular exercise important?,"Regular exercise is important because it:
+
+1. **Improves physical health** – Strengthens the heart, lungs, and muscles; helps maintain a healthy weight; and reduces the risk of chronic diseases like heart disease, type 2 diabetes, and some cancers.
+
+2. **Boosts mental health** – Releases endorphins that reduce stress, anxiety, and depression; improves mood and sleep quality.
+
+3. **Enhances cognitive function** – Promotes brain health, improves memory and learning, and may lower the risk of dementia.
+
+4. **Increases energy and stamina** – Improves circulation and oxygen delivery, making daily activities easier.
+
+5. **Supports longevity and quality of life** – Helps maintain mobility, balance, and independence as you age.
+
+Consistent physical activity is a cornerstone of overall well-being."
+O14,Environment,qwen/qwen3-next-80b-a3b-instruct,What is renewable energy?,"Renewable energy is energy derived from natural sources that are constantly replenished and have a minimal environmental impact. Examples include:
+
+- **Solar energy** (from sunlight)  
+- **Wind energy** (from wind turbines)  
+- **Hydropower** (from flowing water)  
+- **Geothermal energy** (from heat within the Earth)  
+- **Biomass** (from organic materials like plants and waste)
+
+Unlike fossil fuels, renewable energy sources are sustainable, produce little to no greenhouse gas emissions during operation, and help reduce dependence on finite resources."
+O15,Astronomy,qwen/qwen3-next-80b-a3b-instruct,What galaxy contains our Solar System?,Our Solar System is located in the **Milky Way Galaxy**.
+H2,History,meta-llama/llama-3.3-70b-instruct,In which year did World War II end?,"World War II ended in 1945. The war in Europe ended on May 8, 1945, and the war in the Pacific ended on September 2, 1945."
+S2,Science,meta-llama/llama-3.3-70b-instruct,What planet is known as the Red Planet?,"Mars is known as the Red Planet due to its reddish appearance, which is caused by iron oxide in the planet's soil."
+M2,Mathematics,meta-llama/llama-3.3-70b-instruct,Solve for x: 2x + 6 = 14.,"To solve for x, subtract 6 from both sides:
+
+2x + 6 - 6 = 14 - 6
+2x = 8
+
+Then, divide both sides by 2:
+
+2x / 2 = 8 / 2
+x = 4
+
+The answer is x = 4."
+P2,Philosophy,meta-llama/llama-3.3-70b-instruct,What is utilitarianism?,Utilitarianism is an ethical theory that suggests actions are right if they promote the greatest happiness for the greatest number of people. It aims to maximize overall well-being and minimize suffering. The theory was developed by philosophers such as Jeremy Bentham and John Stuart Mill.
+E2,English,meta-llama/llama-3.3-70b-instruct,What is the past tense of the verb 'go'?,The past tense of the verb 'go' is 'went'.
+R2,General Reasoning,meta-llama/llama-3.3-70b-instruct,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,"To find the distance traveled in 3 hours, multiply the speed (60 km/h) by the time (3 hours). 
+
+Distance = Speed * Time
+Distance = 60 km/h * 3 h
+Distance = 180 km
+
+The train will travel 180 kilometers in 3 hours."
+C2,Coding,meta-llama/llama-3.3-70b-instruct,What is the output of print(2 + 3 * 4) in Python?,"**14**
+
+Explanation: In Python, the `*` operator has higher precedence than the `+` operator. So, the expression `2 + 3 * 4` is evaluated as follows:
+
+1. `3 * 4` = 12
+2. `2 + 12` = 14
+
+Therefore, the output of `print(2 + 3 * 4)` is **14**."
+O2,Geography,meta-llama/llama-3.3-70b-instruct,Which is the largest ocean on Earth?,"The Pacific Ocean is the largest ocean on Earth, covering approximately 155.6 million square kilometers (60.1 million square miles) or about 46% of the Earth's total ocean area."
+O5,Technology,meta-llama/llama-3.3-70b-instruct,What does CPU stand for?,CPU stands for Central Processing Unit.
+O7,Economics,meta-llama/llama-3.3-70b-instruct,What is inflation?,"Inflation is a sustained increase in the general price level of goods and services in an economy over time, resulting in a decrease in the purchasing power of money."
+O8,Sports,meta-llama/llama-3.3-70b-instruct,In which sport is the term 'checkmate' used?,"The term 'checkmate' is used in the sport of chess. It refers to a situation where a player's king is under attack and cannot escape capture, resulting in the end of the game."
+O10,Current Knowledge,meta-llama/llama-3.3-70b-instruct,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called evaporation.
+O13,Health,meta-llama/llama-3.3-70b-instruct,Why is regular exercise important?,"Regular exercise is important because it:
+
+1. Improves physical health (reduces risk of chronic diseases, such as heart disease and diabetes)
+2. Boosts mental health (reduces stress, anxiety, and depression)
+3. Increases energy levels
+4. Supports weight management
+5. Enhances sleep quality
+6. Improves cognitive function and concentration
+
+Overall, regular exercise can help you live a longer, healthier, and happier life."
+O14,Environment,meta-llama/llama-3.3-70b-instruct,What is renewable energy?,"Renewable energy is energy that comes from natural resources that can be replenished over time, such as:
+
+1. Solar energy (from the sun)
+2. Wind energy (from wind)
+3. Hydro energy (from water)
+4. Geothermal energy (from heat inside the Earth)
+5. Biomass energy (from organic matter)
+
+These sources are sustainable and do not deplete finite resources, unlike fossil fuels."
+O15,Astronomy,meta-llama/llama-3.3-70b-instruct,What galaxy contains our Solar System?,The Milky Way galaxy contains our Solar System.
+H2,History,openai/gpt-oss-120b,In which year did World War II end?,World War II ended in **1945**.
+S2,Science,openai/gpt-oss-120b,What planet is known as the Red Planet?,Mars is known as the Red Planet.
+M2,Mathematics,openai/gpt-oss-120b,Solve for x: 2x + 6 = 14.,"\(2x + 6 = 14\)
+
+1. Subtract 6 from both sides:  
+   \(2x = 8\)
+
+2. Divide both sides by 2:  
+   \(x = 4\)
+
+\[
+\boxed{x = 4}
+\]"
+P2,Philosophy,openai/gpt-oss-120b,What is utilitarianism?,"Utilitarianism is an ethical theory that judges the rightness or wrongness of actions based on their consequences, specifically aiming to maximize overall happiness or well‑being. In its classic form, often summarized as “the greatest happiness for the greatest number,” an action is considered morally good if it produces the most net pleasure (or reduces suffering) for the most people compared to any alternative action. The theory was developed by philosophers such as Jeremy Bentham and John Stuart Mill and is a form of consequentialism."
+E2,English,openai/gpt-oss-120b,What is the past tense of the verb 'go'?,The past tense of **go** is **went**.
+R2,General Reasoning,openai/gpt-oss-120b,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,"The train’s speed is  
+
+\[
+\text{speed} = \frac{60\text{ km}}{1\text{ h}} = 60\text{ km/h}.
+\]
+
+At the same speed for 3 hours:
+
+\[
+\text{distance} = 60\text{ km/h} \times 3\text{ h} = 180\text{ km}.
+\]
+
+**It will travel 180 kilometers.**"
+C2,Coding,openai/gpt-oss-120b,What is the output of print(2 + 3 * 4) in Python?,"The expression evaluates as follows:
+
+- Multiplication first: 3 * 4 = 12  
+- Then addition: 2 + 12 = 14  
+
+So `print(2 + 3 * 4)` outputs:
+
+```
+14
+```"
+O2,Geography,openai/gpt-oss-120b,Which is the largest ocean on Earth?,"The **Pacific Ocean** is the largest ocean on Earth. It covers about 63 million square miles (≈165 million km²), more than half of the planet’s oceanic surface."
+O5,Technology,openai/gpt-oss-120b,What does CPU stand for?,"CPU stands for **Central Processing Unit**. It’s the primary component of a computer that performs most of the processing tasks, executing instructions and managing data."
+O7,Economics,openai/gpt-oss-120b,What is inflation?,"**Inflation** is the sustained rise in the overall price level of goods and services in an economy over time. As prices increase, each unit of currency buys fewer items, meaning the purchasing power of money declines.
+
+Key points:
+
+| Aspect | Description |
+|--------|-------------|
+| **Measurement** | Typically tracked with price indexes such as the Consumer Price Index (CPI) or the Producer Price Index (PPI). |
+| **Common Causes** | • **Demand‑pull:** Too much aggregate demand chasing too few goods.<br>• **Cost‑push:** Rising production costs (e.g., wages, raw materials) are passed to consumers.<br>• **Built‑in (wage‑price spiral):** Expectations of higher prices lead to higher wage demands, which further raise prices. |
+| **Effects** | • Reduces real income and savings value.<br>• Can erode fixed‑income purchasing power.<br>• May influence interest rates, monetary policy, and investment decisions. |
+| **Desired vs. Undesired** | Central banks usually aim for a low, stable inflation rate (e.g., ~2% per year) to avoid deflation and to support economic growth. High or volatile inflation is generally considered harmful. |
+
+In short, inflation reflects how much more money is needed to purchase the same basket of goods and services compared with a previous period."
+O8,Sports,openai/gpt-oss-120b,In which sport is the term 'checkmate' used?,The term **“checkmate”** is used in **chess** (often classified as a mind sport).
+O10,Current Knowledge,openai/gpt-oss-120b,What is the process by which water changes from liquid to gas called?,"The transition of water from a liquid to a gas is called **vaporization**. When it occurs at the surface below the boiling point, it’s specifically called **evaporation**; when it happens throughout the liquid at its boiling point, it’s called **boiling**."
+O13,Health,openai/gpt-oss-120b,Why is regular exercise important?,"**Regular exercise matters because it benefits virtually every system in your body and mind.**  
+
+| Area | How exercise helps |
+|------|--------------------|
+| **Cardiovascular health** | Strengthens the heart, improves blood‑vessel elasticity, lowers blood pressure and reduces “bad” LDL cholesterol. |
+| **Weight & metabolism** | Burns calories, builds muscle (which raises resting metabolic rate), and improves insulin sensitivity, lowering the risk of obesity and type 2 diabetes. |
+| **Musculoskeletal health** | Increases bone density, joint stability, and muscle strength, helping prevent osteoporosis, arthritis pain, and falls as you age. |
+| **Immune function** | Moderate, consistent activity boosts circulation of immune cells and can reduce the frequency of infections. |
+| **Mental health** | Releases endorphins and other neurotransmitters that lift mood, reduce anxiety and depression, and improve stress resilience. |
+| **Cognitive function** | Enhances blood flow to the brain, supports neuroplasticity, and is linked to better memory, attention, and lower risk of dementia. |
+| **Sleep quality** | Promotes deeper, more restorative sleep and helps regulate the sleep‑wake cycle. |
+| **Longevity & disease prevention** | Regular activity is associated with a 20‑30 % lower risk of premature death and reduces the incidence of heart disease, certain cancers, stroke, and metabolic disorders. |
+| **Functional independence** | Improves balance, coordination, and endurance, making everyday tasks (climbing stairs, carrying groceries) easier and reducing injury risk. |
+
+**Bottom line:** Even modest, consistent exercise (e.g., 150 minutes of moderate aerobic activity + two strength‑training sessions per week) delivers a cascade of health benefits that keep you physically stronger, mentally sharper, and less prone to chronic disease."
+O14,Environment,openai/gpt-oss-120b,What is renewable energy?,"**Renewable energy** is power generated from resources that are naturally replenished on a human‑timescale, meaning they won’t be depleted by regular use. Unlike fossil fuels, these sources regenerate quickly through natural processes.
+
+| Source | How It Works | Typical Uses |
+|--------|--------------|--------------|
+| **Solar** (photovoltaic & thermal) | Sunlight is converted directly into electricity (PV) or heat (solar thermal). | Rooftop panels, solar farms, water heating. |
+| **Wind** | Wind turbines capture kinetic energy of moving air and turn it into electricity. | Utility‑scale wind farms, offshore turbines, small‑scale turbines for farms or homes. |
+| **Hydropower** | Flowing water drives turbines to produce electricity. | Large dams, run‑of‑river plants, tidal and wave energy. |
+| **Biomass** | Organic material (wood, agricultural waste, algae) is burned or processed to release heat or produce biofuels. | Heating, electricity, bio‑ethanol, biodiesel. |
+| **Geothermal** | Heat from Earth’s interior is used for direct heating or to generate steam for turbines. | District heating, geothermal power plants. |
+| **Ocean** (tidal, wave, ocean‑thermal) | Tidal currents, wave motion, or temperature differences drive generators. | Emerging commercial projects, niche applications. |
+
+### Key Characteristics
+- **Sustainability:** The resource replenishes naturally (sunlight, wind, water cycle, etc.).
+- **Low Carbon Emissions:** Production emits little to no greenhouse gases compared with coal, oil, or natural gas.
+- **Distributed Potential:** Can be generated close to where it’s used (e.g., rooftop solar), reducing transmission losses.
+- **Variable Output:** Many renewables depend on weather or time of day, requiring storage or grid management solutions.
+
+### Why It Matters
+- **Climate Mitigation:** Cuts CO₂ and other pollutants, helping meet global climate targets.
+- **Energy Security:** Reduces dependence on imported fossil fuels.
+- **Economic Growth:** Creates jobs in manufacturing, installation, and maintenance.
+- **Public Health:** Decreases air‑quality‑related illnesses from fossil‑fuel combustion.
+
+In short, renewable energy harnesses naturally occurring, quickly replenished forces—sunlight, wind, water, heat from the Earth, and organic matter—to produce power with minimal environmental impact."
+O15,Astronomy,openai/gpt-oss-120b,What galaxy contains our Solar System?,Our Solar System is located within the **Milky Way galaxy**.

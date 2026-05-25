@@ -1,0 +1,235 @@
+promptid,category,model_name,judge_model,prompt,correct_response,model_response,hallucination_nlp,hallucination_llm,hallucination_score,instruction_following_nlp,instruction_following_llm,instruction_following_score,assumption_control_nlp,assumption_control_llm,assumption_control_score,accuracy_nlp,accuracy_llm,accuracy_score,coherence_nlp,coherence_llm,coherence_score,final_score
+H2,History,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,In which year did World War II end?,World War II ended in 1945.,"World War II ended in **1945**.  
+
+The war in Europe concluded on **May 8, 1945** (V-E Day), after Germany’s unconditional surrender. The war officially ended globally on **September 2, 1945**, when Japan formally surrendered aboard the USS Missouri, marking V-J Day.",0.8477,1.0,0.9391,0.2516,1.0,0.7006,0.2398,1.0,0.6959,0.5201,1.0,0.808,0.6516,1.0,0.8606,0.8008
+S2,Science,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What planet is known as the Red Planet?,Mars is known as the Red Planet.,"The planet known as the Red Planet is **Mars**. It gets this nickname because of its reddish appearance, which is caused by iron oxide (rust) on its surface.",0.879,1.0,0.9516,0.4088,1.0,0.7635,0.375,1.0,0.75,0.5558,1.0,0.8223,0.372,1.0,0.7488,0.8072
+M2,Mathematics,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,Solve for x: 2x + 6 = 14.,x equals 4.,"We are given the equation:
+
+$$
+2x + 6 = 14
+$$
+
+### Step 1: Subtract 6 from both sides
+$$
+2x = 14 - 6
+$$
+$$
+2x = 8
+$$
+
+### Step 2: Divide both sides by 2
+$$
+x = \frac{8}{2}
+$$
+$$
+x = 4
+$$
+
+### ✅ Final Answer:
+$$
+x = 4
+$$",0.6382,1.0,0.8553,0.1081,1.0,0.6432,0.5254,1.0,0.8102,0.4721,1.0,0.7888,0.8,1.0,0.92,0.8035
+P2,Philosophy,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What is utilitarianism?,Utilitarianism is the ethical theory that actions are right if they maximize overall happiness or well-being.,"Utilitarianism is a normative ethical theory that proposes that the best action is the one that maximizes overall happiness or utility for the greatest number of people. Rooted in the philosophy of Jeremy Bentham and later developed by John Stuart Mill, it holds that moral decisions should be based on their consequences—specifically, the amount of pleasure or well-being they produce versus pain or suffering. It is a form of consequentialism, meaning the morality of an act is judged by its outcomes, not by intentions or rules. The core principle is often summarized as “the greatest good for the greatest number.”",0.8395,1.0,0.9358,0.3066,1.0,0.7226,0.205,1.0,0.682,0.5257,1.0,0.8103,0.3637,1.0,0.7455,0.7792
+E2,English,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What is the past tense of the verb 'go'?,The past tense of 'go' is 'went'.,The past tense of the verb **'go'** is **'went'**.,0.9356,1.0,0.9742,0.7472,1.0,0.8989,0.8889,1.0,0.9556,0.6,1.0,0.84,0.8,1.0,0.92,0.9177
+R2,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,The train will travel 180 kilometers in 3 hours.,"The train travels 60 kilometers in 1 hour, so its speed is **60 km/h**.
+
+To find the distance traveled in 3 hours at the same speed:
+
+$$
+60 \text{ km/h} \times 3 \text{ h} = 180 \text{ km}
+$$
+
+**Answer: 180 kilometers**",0.805,1.0,0.922,0.2823,1.0,0.7129,0.3571,1.0,0.7428,0.4886,1.0,0.7954,0.6676,1.0,0.867,0.808
+C2,Coding,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What is the output of print(2 + 3 * 4) in Python?,The output is 14 because multiplication is performed before addition.,"The output of `print(2 + 3 * 4)` in Python is:
+
+```
+14
+```
+
+### Explanation:
+Python follows the **order of operations** (PEMDAS/BODMAS), where multiplication (`*`) has higher precedence than addition (`+`).
+
+So:
+- `3 * 4 = 12`
+- `2 + 12 = 14`
+
+Thus, `print(2 + 3 * 4)` outputs `14`.",0.748,1.0,0.8992,0.1876,1.0,0.675,0.3443,1.0,0.7377,0.4686,1.0,0.7874,0.7459,1.0,0.8984,0.7995
+O2,Geography,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,Which is the largest ocean on Earth?,The Pacific Ocean is the largest ocean on Earth.,The largest ocean on Earth is the **Pacific Ocean**. It covers approximately 63 million square miles (165 million square kilometers) and contains more than half of the free water on Earth. It stretches from the Arctic in the north to the Southern Ocean in the south and is bounded by Asia and Australia to the west and the Americas to the east.,0.8633,0.9,0.8853,0.2846,1.0,0.7138,0.2392,1.0,0.6957,0.5195,1.0,0.8078,0.3917,1.0,0.7567,0.7719
+O5,Technology,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What does CPU stand for?,CPU stands for Central Processing Unit.,CPU stands for **Central Processing Unit**.,0.968,1.0,0.9872,0.8125,1.0,0.925,1.0,1.0,1.0,0.6595,1.0,0.8638,0.8,1.0,0.92,0.9392
+O7,Economics,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What is inflation?,"Inflation is the general increase in prices over time, reducing purchasing power.","Inflation is the rate at which the general level of prices for goods and services rises over time, leading to a decrease in the purchasing power of money. In other words, as inflation increases, each unit of currency buys fewer goods and services. It is typically measured as an annual percentage change using indices like the Consumer Price Index (CPI). Moderate inflation is often a sign of a growing economy, but high or unpredictable inflation can erode savings and disrupt economic stability.",0.8592,0.8,0.8237,0.2494,0.9,0.6398,0.1982,0.9,0.6193,0.5291,1.0,0.8116,0.4683,1.0,0.7873,0.7363
+O8,Sports,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,In which sport is the term 'checkmate' used?,The term 'checkmate' is used in chess.,"The term **'checkmate'** is used in the sport of **chess**.
+
+It refers to a position in which a player's king is under threat of capture (in ""check"") and there is no legal move to escape that threat, thus ending the game in victory for the attacking player.",0.896,1.0,0.9584,0.2409,1.0,0.6964,0.3245,1.0,0.7298,0.5151,1.0,0.806,0.5298,1.0,0.8119,0.8005
+O10,Current Knowledge,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called evaporation.,The process by which water changes from liquid to gas is called **evaporation**.,0.9784,1.0,0.9914,0.9614,1.0,0.9846,1.0,1.0,1.0,0.8446,1.0,0.9378,0.8,1.0,0.92,0.9668
+O13,Health,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,Why is regular exercise important?,"Regular exercise is important because it improves physical health, mental well-being, and overall fitness.","Regular exercise is important because it:
+
+1. **Improves physical health** – Strengthens the heart, lungs, and muscles; helps maintain a healthy weight; and reduces the risk of chronic diseases like heart disease, type 2 diabetes, and some cancers.
+
+2. **Boosts mental health** – Releases endorphins that reduce stress, anxiety, and depression; improves mood and sleep quality.
+
+3. **Enhances cognitive function** – Promotes brain health, improves memory and learning, and may lower the risk of dementia.
+
+4. **Increases energy and stamina** – Improves circulation and oxygen delivery, making daily activities easier.
+
+5. **Supports longevity and quality of life** – Helps maintain mobility, balance, and independence as you age.
+
+Consistent physical activity is a cornerstone of overall well-being.",0.8723,0.3,0.5289,0.2595,0.9,0.6438,0.1058,0.3,0.2223,0.5114,0.9,0.7446,0.5487,0.9,0.7595,0.5798
+O14,Environment,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What is renewable energy?,"Renewable energy is energy obtained from naturally replenishing sources such as sunlight, wind, and water.","Renewable energy is energy derived from natural sources that are constantly replenished and have a minimal environmental impact. Examples include:
+
+- **Solar energy** (from sunlight)  
+- **Wind energy** (from wind turbines)  
+- **Hydropower** (from flowing water)  
+- **Geothermal energy** (from heat within the Earth)  
+- **Biomass** (from organic materials like plants and waste)
+
+Unlike fossil fuels, renewable energy sources are sustainable, produce little to no greenhouse gas emissions during operation, and help reduce dependence on finite resources.",0.8684,0.9,0.8874,0.2527,1.0,0.7011,0.3474,0.9,0.679,0.5022,1.0,0.8009,0.7086,1.0,0.8834,0.7904
+O15,Astronomy,qwen/qwen3-next-80b-a3b-instruct,openai/gpt-oss-120b,What galaxy contains our Solar System?,Our Solar System is located in the Milky Way galaxy.,Our Solar System is located in the **Milky Way Galaxy**.,0.9591,1.0,0.9836,0.8969,1.0,0.9588,1.0,1.0,1.0,0.7367,1.0,0.8947,0.8,1.0,0.92,0.9514
+H2,History,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,In which year did World War II end?,World War II ended in 1945.,"World War II ended in 1945. The war in Europe ended on May 8, 1945, and the war in the Pacific ended on September 2, 1945.",0.8977,1.0,0.9591,0.375,1.0,0.75,0.3654,1.0,0.7462,0.6114,1.0,0.8446,0.7664,1.0,0.9066,0.8413
+S2,Science,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What planet is known as the Red Planet?,Mars is known as the Red Planet.,"Mars is known as the Red Planet due to its reddish appearance, which is caused by iron oxide in the planet's soil.",0.8968,1.0,0.9587,0.4842,1.0,0.7937,0.6591,1.0,0.8636,0.6271,1.0,0.8508,0.8,1.0,0.92,0.8774
+M2,Mathematics,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,Solve for x: 2x + 6 = 14.,x equals 4.,"To solve for x, subtract 6 from both sides:
+
+2x + 6 - 6 = 14 - 6
+2x = 8
+
+Then, divide both sides by 2:
+
+2x / 2 = 8 / 2
+x = 4
+
+The answer is x = 4.",0.7045,1.0,0.8818,0.1627,1.0,0.6651,0.5349,1.0,0.814,0.4949,1.0,0.798,0.8,1.0,0.92,0.8158
+P2,Philosophy,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What is utilitarianism?,Utilitarianism is the ethical theory that actions are right if they maximize overall happiness or well-being.,Utilitarianism is an ethical theory that suggests actions are right if they promote the greatest happiness for the greatest number of people. It aims to maximize overall well-being and minimize suffering. The theory was developed by philosophers such as Jeremy Bentham and John Stuart Mill.,0.9264,1.0,0.9706,0.558,1.0,0.8232,0.3444,1.0,0.7378,0.5889,1.0,0.8356,0.2717,1.0,0.7087,0.8152
+E2,English,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What is the past tense of the verb 'go'?,The past tense of 'go' is 'went'.,The past tense of the verb 'go' is 'went'.,0.9795,1.0,0.9918,0.9045,1.0,0.9618,0.8889,1.0,0.9556,0.7878,1.0,0.9151,0.8,1.0,0.92,0.9489
+R2,General Reasoning,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,The train will travel 180 kilometers in 3 hours.,"To find the distance traveled in 3 hours, multiply the speed (60 km/h) by the time (3 hours). 
+
+Distance = Speed * Time
+Distance = 60 km/h * 3 h
+Distance = 180 km
+
+The train will travel 180 kilometers in 3 hours.",0.8646,1.0,0.9458,0.5463,1.0,0.8185,0.3547,1.0,0.7419,0.5643,1.0,0.8257,0.7417,1.0,0.8967,0.8457
+C2,Coding,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What is the output of print(2 + 3 * 4) in Python?,The output is 14 because multiplication is performed before addition.,"**14**
+
+Explanation: In Python, the `*` operator has higher precedence than the `+` operator. So, the expression `2 + 3 * 4` is evaluated as follows:
+
+1. `3 * 4` = 12
+2. `2 + 12` = 14
+
+Therefore, the output of `print(2 + 3 * 4)` is **14**.",0.7621,1.0,0.9048,0.2138,1.0,0.6855,0.227,1.0,0.6908,0.4803,1.0,0.7921,0.6299,1.0,0.852,0.785
+O2,Geography,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,Which is the largest ocean on Earth?,The Pacific Ocean is the largest ocean on Earth.,"The Pacific Ocean is the largest ocean on Earth, covering approximately 155.6 million square kilometers (60.1 million square miles) or about 46% of the Earth's total ocean area.",0.9018,1.0,0.9607,0.4085,1.0,0.7634,0.6607,1.0,0.8643,0.6086,1.0,0.8434,0.8,1.0,0.92,0.8704
+O5,Technology,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What does CPU stand for?,CPU stands for Central Processing Unit.,CPU stands for Central Processing Unit.,1.0,1.0,1.0,0.9988,1.0,0.9995,1.0,1.0,1.0,1.0,1.0,1.0,0.8,1.0,0.92,0.9839
+O7,Economics,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What is inflation?,"Inflation is the general increase in prices over time, reducing purchasing power.","Inflation is a sustained increase in the general price level of goods and services in an economy over time, resulting in a decrease in the purchasing power of money.",0.9224,1.0,0.969,0.491,1.0,0.7964,0.7069,1.0,0.8828,0.5819,1.0,0.8328,0.8,1.0,0.92,0.8802
+O8,Sports,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,In which sport is the term 'checkmate' used?,The term 'checkmate' is used in chess.,"The term 'checkmate' is used in the sport of chess. It refers to a situation where a player's king is under attack and cannot escape capture, resulting in the end of the game.",0.9266,1.0,0.9706,0.4205,1.0,0.7682,0.3561,1.0,0.7424,0.5878,1.0,0.8351,0.3164,1.0,0.7266,0.8086
+O10,Current Knowledge,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called evaporation.,The process by which water changes from liquid to gas is called evaporation.,1.0,1.0,1.0,0.9999,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.8,1.0,0.92,0.984
+O13,Health,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,Why is regular exercise important?,"Regular exercise is important because it improves physical health, mental well-being, and overall fitness.","Regular exercise is important because it:
+
+1. Improves physical health (reduces risk of chronic diseases, such as heart disease and diabetes)
+2. Boosts mental health (reduces stress, anxiety, and depression)
+3. Increases energy levels
+4. Supports weight management
+5. Enhances sleep quality
+6. Improves cognitive function and concentration
+
+Overall, regular exercise can help you live a longer, healthier, and happier life.",0.9023,1.0,0.9609,0.3629,1.0,0.7452,0.1862,1.0,0.6745,0.5432,1.0,0.8173,0.411,1.0,0.7644,0.7925
+O14,Environment,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What is renewable energy?,"Renewable energy is energy obtained from naturally replenishing sources such as sunlight, wind, and water.","Renewable energy is energy that comes from natural resources that can be replenished over time, such as:
+
+1. Solar energy (from the sun)
+2. Wind energy (from wind)
+3. Hydro energy (from water)
+4. Geothermal energy (from heat inside the Earth)
+5. Biomass energy (from organic matter)
+
+These sources are sustainable and do not deplete finite resources, unlike fossil fuels.",0.8855,1.0,0.9542,0.3096,1.0,0.7238,0.2083,1.0,0.6833,0.527,1.0,0.8108,0.4863,1.0,0.7945,0.7933
+O15,Astronomy,meta-llama/llama-3.3-70b-instruct,qwen/qwen3-next-80b-a3b-instruct,What galaxy contains our Solar System?,Our Solar System is located in the Milky Way galaxy.,The Milky Way galaxy contains our Solar System.,0.9312,1.0,0.9725,0.4692,1.0,0.7877,1.0,1.0,1.0,0.6512,1.0,0.8605,0.8,1.0,0.92,0.9081
+H2,History,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,In which year did World War II end?,World War II ended in 1945.,World War II ended in **1945**.,0.9425,1.0,0.977,0.915,1.0,0.966,1.0,1.0,1.0,0.6855,1.0,0.8742,0.8,1.0,0.92,0.9474
+S2,Science,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What planet is known as the Red Planet?,Mars is known as the Red Planet.,Mars is known as the Red Planet.,1.0,1.0,1.0,0.9993,1.0,0.9997,1.0,1.0,1.0,1.0,1.0,1.0,0.8,1.0,0.92,0.9839
+M2,Mathematics,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,Solve for x: 2x + 6 = 14.,x equals 4.,"\(2x + 6 = 14\)
+
+1. Subtract 6 from both sides:  
+   \(2x = 8\)
+
+2. Divide both sides by 2:  
+   \(x = 4\)
+
+\[
+\boxed{x = 4}
+\]",0.6656,1.0,0.8662,0.08,1.0,0.632,0.2202,1.0,0.6881,0.4716,1.0,0.7886,0.621,1.0,0.8484,0.7647
+P2,Philosophy,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What is utilitarianism?,Utilitarianism is the ethical theory that actions are right if they maximize overall happiness or well-being.,"Utilitarianism is an ethical theory that judges the rightness or wrongness of actions based on their consequences, specifically aiming to maximize overall happiness or well‑being. In its classic form, often summarized as “the greatest happiness for the greatest number,” an action is considered morally good if it produces the most net pleasure (or reduces suffering) for the most people compared to any alternative action. The theory was developed by philosophers such as Jeremy Bentham and John Stuart Mill and is a form of consequentialism.",0.8911,1.0,0.9564,0.2906,1.0,0.7162,0.2619,1.0,0.7048,0.5223,1.0,0.8089,0.3191,1.0,0.7276,0.7828
+E2,English,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What is the past tense of the verb 'go'?,The past tense of 'go' is 'went'.,The past tense of **go** is **went**.,0.9406,1.0,0.9762,0.8457,1.0,0.9383,1.0,1.0,1.0,0.6251,1.0,0.85,0.8,1.0,0.92,0.9369
+R2,General Reasoning,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,The train will travel 180 kilometers in 3 hours.,"The train’s speed is  
+
+\[
+\text{speed} = \frac{60\text{ km}}{1\text{ h}} = 60\text{ km/h}.
+\]
+
+At the same speed for 3 hours:
+
+\[
+\text{distance} = 60\text{ km/h} \times 3\text{ h} = 180\text{ km}.
+\]
+
+**It will travel 180 kilometers.**",0.8095,1.0,0.9238,0.3028,1.0,0.7211,0.2851,1.0,0.714,0.453,1.0,0.7812,0.5535,1.0,0.8214,0.7923
+C2,Coding,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What is the output of print(2 + 3 * 4) in Python?,The output is 14 because multiplication is performed before addition.,"The expression evaluates as follows:
+
+- Multiplication first: 3 * 4 = 12  
+- Then addition: 2 + 12 = 14  
+
+So `print(2 + 3 * 4)` outputs:
+
+```
+14
+```",0.7663,1.0,0.9065,0.1557,1.0,0.6623,0.6613,1.0,0.8645,0.449,1.0,0.7796,0.8,1.0,0.92,0.8266
+O2,Geography,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,Which is the largest ocean on Earth?,The Pacific Ocean is the largest ocean on Earth.,"The **Pacific Ocean** is the largest ocean on Earth. It covers about 63 million square miles (≈165 million km²), more than half of the planet’s oceanic surface.",0.8962,1.0,0.9585,0.5684,1.0,0.8274,0.4167,1.0,0.7667,0.5545,1.0,0.8218,0.478,1.0,0.7912,0.8331
+O5,Technology,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What does CPU stand for?,CPU stands for Central Processing Unit.,"CPU stands for **Central Processing Unit**. It’s the primary component of a computer that performs most of the processing tasks, executing instructions and managing data.",0.8954,1.0,0.9582,0.4248,1.0,0.7699,0.37,1.0,0.748,0.542,1.0,0.8168,0.5741,1.0,0.8296,0.8245
+O7,Economics,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What is inflation?,"Inflation is the general increase in prices over time, reducing purchasing power.","**Inflation** is the sustained rise in the overall price level of goods and services in an economy over time. As prices increase, each unit of currency buys fewer items, meaning the purchasing power of money declines.
+
+Key points:
+
+| Aspect | Description |
+|--------|-------------|
+| **Measurement** | Typically tracked with price indexes such as the Consumer Price Index (CPI) or the Producer Price Index (PPI). |
+| **Common Causes** | • **Demand‑pull:** Too much aggregate demand chasing too few goods.<br>• **Cost‑push:** Rising production costs (e.g., wages, raw materials) are passed to consumers.<br>• **Built‑in (wage‑price spiral):** Expectations of higher prices lead to higher wage demands, which further raise prices. |
+| **Effects** | • Reduces real income and savings value.<br>• Can erode fixed‑income purchasing power.<br>• May influence interest rates, monetary policy, and investment decisions. |
+| **Desired vs. Undesired** | Central banks usually aim for a low, stable inflation rate (e.g., ~2% per year) to avoid deflation and to support economic growth. High or volatile inflation is generally considered harmful. |
+
+In short, inflation reflects how much more money is needed to purchase the same basket of goods and services compared with a previous period.",0.7619,1.0,0.9048,0.1248,1.0,0.6499,0.0865,1.0,0.6346,0.471,1.0,0.7884,0.2947,1.0,0.7179,0.7391
+O8,Sports,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,In which sport is the term 'checkmate' used?,The term 'checkmate' is used in chess.,The term **“checkmate”** is used in **chess** (often classified as a mind sport).,0.9253,1.0,0.9701,0.6684,1.0,0.8674,0.7692,1.0,0.9077,0.5556,1.0,0.8222,0.8,1.0,0.92,0.8975
+O10,Current Knowledge,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called evaporation.,"The transition of water from a liquid to a gas is called **vaporization**. When it occurs at the surface below the boiling point, it’s specifically called **evaporation**; when it happens throughout the liquid at its boiling point, it’s called **boiling**.",0.8482,1.0,0.9393,0.3331,1.0,0.7332,0.4125,1.0,0.765,0.5301,1.0,0.812,0.6091,1.0,0.8436,0.8186
+O13,Health,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,Why is regular exercise important?,"Regular exercise is important because it improves physical health, mental well-being, and overall fitness.","**Regular exercise matters because it benefits virtually every system in your body and mind.**  
+
+| Area | How exercise helps |
+|------|--------------------|
+| **Cardiovascular health** | Strengthens the heart, improves blood‑vessel elasticity, lowers blood pressure and reduces “bad” LDL cholesterol. |
+| **Weight & metabolism** | Burns calories, builds muscle (which raises resting metabolic rate), and improves insulin sensitivity, lowering the risk of obesity and type 2 diabetes. |
+| **Musculoskeletal health** | Increases bone density, joint stability, and muscle strength, helping prevent osteoporosis, arthritis pain, and falls as you age. |
+| **Immune function** | Moderate, consistent activity boosts circulation of immune cells and can reduce the frequency of infections. |
+| **Mental health** | Releases endorphins and other neurotransmitters that lift mood, reduce anxiety and depression, and improve stress resilience. |
+| **Cognitive function** | Enhances blood flow to the brain, supports neuroplasticity, and is linked to better memory, attention, and lower risk of dementia. |
+| **Sleep quality** | Promotes deeper, more restorative sleep and helps regulate the sleep‑wake cycle. |
+| **Longevity & disease prevention** | Regular activity is associated with a 20‑30 % lower risk of premature death and reduces the incidence of heart disease, certain cancers, stroke, and metabolic disorders. |
+| **Functional independence** | Improves balance, coordination, and endurance, making everyday tasks (climbing stairs, carrying groceries) easier and reducing injury risk. |
+
+**Bottom line:** Even modest, consistent exercise (e.g., 150 minutes of moderate aerobic activity + two strength‑training sessions per week) delivers a cascade of health benefits that keep you physically stronger, mentally sharper, and less prone to chronic disease.",0.7216,1.0,0.8886,0.106,1.0,0.6424,0.0762,1.0,0.6305,0.4679,1.0,0.7872,0.4368,1.0,0.7747,0.7447
+O14,Environment,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What is renewable energy?,"Renewable energy is energy obtained from naturally replenishing sources such as sunlight, wind, and water.","**Renewable energy** is power generated from resources that are naturally replenished on a human‑timescale, meaning they won’t be depleted by regular use. Unlike fossil fuels, these sources regenerate quickly through natural processes.
+
+| Source | How It Works | Typical Uses |
+|--------|--------------|--------------|
+| **Solar** (photovoltaic & thermal) | Sunlight is converted directly into electricity (PV) or heat (solar thermal). | Rooftop panels, solar farms, water heating. |
+| **Wind** | Wind turbines capture kinetic energy of moving air and turn it into electricity. | Utility‑scale wind farms, offshore turbines, small‑scale turbines for farms or homes. |
+| **Hydropower** | Flowing water drives turbines to produce electricity. | Large dams, run‑of‑river plants, tidal and wave energy. |
+| **Biomass** | Organic material (wood, agricultural waste, algae) is burned or processed to release heat or produce biofuels. | Heating, electricity, bio‑ethanol, biodiesel. |
+| **Geothermal** | Heat from Earth’s interior is used for direct heating or to generate steam for turbines. | District heating, geothermal power plants. |
+| **Ocean** (tidal, wave, ocean‑thermal) | Tidal currents, wave motion, or temperature differences drive generators. | Emerging commercial projects, niche applications. |
+
+### Key Characteristics
+- **Sustainability:** The resource replenishes naturally (sunlight, wind, water cycle, etc.).
+- **Low Carbon Emissions:** Production emits little to no greenhouse gases compared with coal, oil, or natural gas.
+- **Distributed Potential:** Can be generated close to where it’s used (e.g., rooftop solar), reducing transmission losses.
+- **Variable Output:** Many renewables depend on weather or time of day, requiring storage or grid management solutions.
+
+### Why It Matters
+- **Climate Mitigation:** Cuts CO₂ and other pollutants, helping meet global climate targets.
+- **Energy Security:** Reduces dependence on imported fossil fuels.
+- **Economic Growth:** Creates jobs in manufacturing, installation, and maintenance.
+- **Public Health:** Decreases air‑quality‑related illnesses from fossil‑fuel combustion.
+
+In short, renewable energy harnesses naturally occurring, quickly replenished forces—sunlight, wind, water, heat from the Earth, and organic matter—to produce power with minimal environmental impact.",0.8014,1.0,0.9206,0.0889,1.0,0.6356,0.0447,1.0,0.6179,0.4587,1.0,0.7835,0.401,1.0,0.7604,0.7436
+O15,Astronomy,openai/gpt-oss-120b,qwen/qwen3-next-80b-a3b-instruct,What galaxy contains our Solar System?,Our Solar System is located in the Milky Way galaxy.,Our Solar System is located within the **Milky Way galaxy**.,0.9478,1.0,0.9791,0.7862,1.0,0.9145,1.0,1.0,1.0,0.6946,1.0,0.8778,0.8,1.0,0.92,0.9383

@@ -1,0 +1,519 @@
+promptid,category,model,prompt,response
+H1,History,qwen/qwen3-next-80b-a3b-instruct,Who was the first President of the United States?,"The first President of the United States was George Washington. He was inaugurated on April 30, 1789, and served two terms until 1797."
+H2,History,qwen/qwen3-next-80b-a3b-instruct,In which year did World War II end?,"World War II ended in **1945**.  
+
+The war in Europe concluded on **May 8, 1945** (V-E Day), after Germany’s unconditional surrender. The war officially ended globally on **September 2, 1945**, when Japan formally surrendered aboard the USS Missouri, marking V-J Day."
+H3,History,qwen/qwen3-next-80b-a3b-instruct,Who built the Taj Mahal?,"The Taj Mahal was built by the Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. Construction began around 1632 and was substantially completed by 1648, with additional work continuing until about 1653. It is located in Agra, India, and is widely regarded as a masterpiece of Mughal architecture."
+H4,History,qwen/qwen3-next-80b-a3b-instruct,What was the main purpose of the Magna Carta?,"The main purpose of the Magna Carta, signed by King John of England in 1215, was to limit the power of the monarchy and establish that the king was subject to the law—not above it. It was originally intended to address grievances of rebellious barons by protecting their feudal rights, ensuring fair legal processes, and preventing arbitrary rule. While initially a practical solution to a political crisis, it became a foundational symbol of constitutional law and individual liberties in later centuries."
+H5,History,qwen/qwen3-next-80b-a3b-instruct,Which civilization built Machu Picchu?,"Machu Picchu was built by the **Inca civilization**.
+
+It was constructed in the 15th century, during the reign of the Inca emperor Pachacuti, as an estate or royal retreat. Located in the Andes Mountains of modern-day Peru, Machu Picchu is a remarkable example of Inca architecture, engineering, and urban planning."
+S1,Science,qwen/qwen3-next-80b-a3b-instruct,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.
+S2,Science,qwen/qwen3-next-80b-a3b-instruct,What planet is known as the Red Planet?,"The planet known as the Red Planet is **Mars**. It gets this nickname because of its reddish appearance, which is caused by iron oxide (rust) on its surface."
+S3,Science,qwen/qwen3-next-80b-a3b-instruct,What gas do plants absorb during photosynthesis?,Plants absorb **carbon dioxide (CO₂)** during photosynthesis.
+S4,Science,qwen/qwen3-next-80b-a3b-instruct,What is the boiling point of water at standard atmospheric pressure?,The boiling point of water at standard atmospheric pressure (1 atm or 101.325 kPa) is **100°C** (212°F).
+S5,Science,qwen/qwen3-next-80b-a3b-instruct,Which part of the cell contains genetic material?,"The **nucleus** contains the genetic material in eukaryotic cells. It houses the cell’s DNA, organized into chromosomes.
+
+In prokaryotic cells (like bacteria), which lack a nucleus, the genetic material is found in a region called the **nucleoid**."
+M1,Mathematics,qwen/qwen3-next-80b-a3b-instruct,What is the value of 15 multiplied by 12?,"15 multiplied by 12 is:
+
+$$
+15 \times 12 = 180
+$$
+
+So, the value is **180**."
+M2,Mathematics,qwen/qwen3-next-80b-a3b-instruct,Solve for x: 2x + 6 = 14.,"We are given the equation:
+
+$$
+2x + 6 = 14
+$$
+
+### Step 1: Subtract 6 from both sides
+$$
+2x = 14 - 6
+$$
+$$
+2x = 8
+$$
+
+### Step 2: Divide both sides by 2
+$$
+x = \frac{8}{2}
+$$
+$$
+x = 4
+$$
+
+### ✅ Final Answer:
+$$
+x = 4
+$$"
+M3,Mathematics,qwen/qwen3-next-80b-a3b-instruct,What is the square root of 144?,"The square root of 144 is **12**.  
+
+This is because $ 12 \times 12 = 144 $."
+M4,Mathematics,qwen/qwen3-next-80b-a3b-instruct,What is the area of a rectangle with length 8 and width 5?,"The area of a rectangle is calculated using the formula:
+
+$$
+\text{Area} = \text{length} \times \text{width}
+$$
+
+Given:
+- Length = 8
+- Width = 5
+
+$$
+\text{Area} = 8 \times 5 = 40
+$$
+
+So, the area is **40 square units**."
+M5,Mathematics,qwen/qwen3-next-80b-a3b-instruct,What is 25 percent of 200?,"To find 25 percent of 200:
+
+25% is the same as $ \frac{25}{100} = 0.25 $
+
+Now multiply:
+
+$$
+0.25 \times 200 = 50
+$$
+
+So, **25 percent of 200 is 50**."
+P1,Philosophy,qwen/qwen3-next-80b-a3b-instruct,Who wrote 'The Republic'?,*The Republic* was written by the ancient Greek philosopher **Plato**.
+P2,Philosophy,qwen/qwen3-next-80b-a3b-instruct,What is utilitarianism?,"Utilitarianism is a normative ethical theory that proposes that the best action is the one that maximizes overall happiness or utility for the greatest number of people. Rooted in the philosophy of Jeremy Bentham and later developed by John Stuart Mill, it holds that moral decisions should be based on their consequences—specifically, the amount of pleasure or well-being they produce versus pain or suffering. It is a form of consequentialism, meaning the morality of an act is judged by its outcomes, not by intentions or rules. The core principle is often summarized as “the greatest good for the greatest number.”"
+P3,Philosophy,qwen/qwen3-next-80b-a3b-instruct,"Which philosopher is known for the statement 'I think, therefore I am'?","The philosopher known for the statement **“I think, therefore I am”** is **René Descartes**.
+
+In Latin, it is **“Cogito, ergo sum”**, and it appears in his 1637 work *Discourse on the Method* and later in *Meditations on First Philosophy*. This statement is foundational to modern philosophy, expressing the idea that the act of thinking provides indubitable proof of one’s existence."
+P4,Philosophy,qwen/qwen3-next-80b-a3b-instruct,What is existentialism primarily concerned with?,"Existentialism is primarily concerned with individual existence, freedom, and choice. It emphasizes the human condition as one of radical freedom and responsibility, asserting that individuals must create their own meaning in an inherently meaningless or absurd universe. Key themes include authenticity, anxiety, alienation, and the search for purpose in the face of death and uncertainty. Thinkers like Sartre, Camus, Heidegger, and Kierkegaard explored how people navigate these challenges without relying on external systems like religion or tradition to dictate meaning."
+P5,Philosophy,qwen/qwen3-next-80b-a3b-instruct,Who taught Alexander the Great?,"Alexander the Great was taught by the Greek philosopher **Aristotle**.
+
+Aristotle was hired by Alexander’s father, King Philip II of Macedon, in 343 BCE to tutor the young prince. He taught Alexander for about three years (c. 343–340 BCE), instructing him in philosophy, ethics, politics, science, and literature. Aristotle’s influence is evident in Alexander’s intellectual curiosity, his appreciation for Greek culture, and his approach to governance and leadership."
+E1,English,qwen/qwen3-next-80b-a3b-instruct,Identify the adjective in the sentence: 'The blue car is fast.',"The adjectives in the sentence ""The blue car is fast."" are:
+
+- **blue**  
+- **fast**
+
+Both describe the noun ""car"":  
+- ""blue"" describes its color.  
+- ""fast"" describes its speed.  
+
+So, there are **two adjectives**: *blue* and *fast*."
+E2,English,qwen/qwen3-next-80b-a3b-instruct,What is the past tense of the verb 'go'?,The past tense of the verb **'go'** is **'went'**.
+E3,English,qwen/qwen3-next-80b-a3b-instruct,What is a synonym for 'happy'?,"A synonym for ""happy"" is ""joyful."""
+E4,English,qwen/qwen3-next-80b-a3b-instruct,Correct the sentence: 'She do not like apples.',"The correct sentence is: **""She does not like apples.""**
+
+Explanation: The subject ""she"" is third-person singular, so the verb must agree with it. The correct form of ""do"" in the present tense for third-person singular is **""does""**."
+E5,English,qwen/qwen3-next-80b-a3b-instruct,What is the main verb in the sentence: 'They are studying mathematics.',"The main verb in the sentence **""They are studying mathematics.""** is **""studying.""**
+
+Although ""are"" is a helping (auxiliary) verb, the main (lexical) verb is **""studying""**, as it carries the primary meaning of the action. Together, ""are studying"" forms the present continuous tense."
+R1,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?","No, we cannot conclude that some roses fade quickly.
+
+Here’s why:
+
+- We know:  
+  1. All roses are flowers.  
+  2. Some flowers fade quickly.
+
+From this, we know that the set of roses is entirely contained within the set of flowers.  
+But “some flowers fade quickly” means *at least one* flower (possibly non-rose) fades quickly.  
+There is no information about whether *any* of those fast-fading flowers are roses.
+
+This is a classic logic fallacy:  
+**Affirming the consequent** or **illicit minor premise** — you can’t infer a property of a subset from a property of a larger set that only partially overlaps.
+
+✅ Example:  
+All dogs are mammals. Some mammals are bats. → Can we say some dogs are bats? No.
+
+Similarly:  
+All roses are flowers. Some flowers fade quickly. → Can we say some roses fade quickly? **No.**
+
+**Conclusion: Not logically valid.**"
+R2,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,"The train travels 60 kilometers in 1 hour, so its speed is **60 km/h**.
+
+To find the distance traveled in 3 hours at the same speed:
+
+$$
+60 \text{ km/h} \times 3 \text{ h} = 180 \text{ km}
+$$
+
+**Answer: 180 kilometers**"
+R3,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,"If today is Monday, what day will it be after 10 days?","If today is Monday, then after 10 days:
+
+We know that the days of the week repeat every 7 days.  
+So, we can find the remainder when 10 is divided by 7:
+
+**10 ÷ 7 = 1 week and 3 days remainder**
+
+So, 10 days from Monday is the same as 3 days after Monday:
+
+- Monday + 1 day = Tuesday  
+- Monday + 2 days = Wednesday  
+- Monday + 3 days = **Thursday**
+
+✅ So, **10 days from Monday is Thursday**."
+R4,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,"Which number comes next in the sequence: 2, 4, 8, 16, ?","The sequence is:  
+**2, 4, 8, 16, ?**
+
+Each number is double the previous one:
+
+- 2 × 2 = 4  
+- 4 × 2 = 8  
+- 8 × 2 = 16  
+- 16 × 2 = **32**
+
+So, the next number is **32**.  
+
+This is a geometric sequence with a common ratio of 2.  
+✅ **Answer: 32**"
+R5,General Reasoning,qwen/qwen3-next-80b-a3b-instruct,"If a box contains only red and blue balls and there are no blue balls, what color are all the balls?","If the box contains only red and blue balls, and there are **no blue balls**, then all the balls must be **red**."
+C1,Coding,qwen/qwen3-next-80b-a3b-instruct,What keyword is used to define a function in Python?,The keyword used to define a function in Python is `def`.
+C2,Coding,qwen/qwen3-next-80b-a3b-instruct,What is the output of print(2 + 3 * 4) in Python?,"The output of `print(2 + 3 * 4)` in Python is:
+
+```
+14
+```
+
+### Explanation:
+Python follows the **order of operations** (PEMDAS/BODMAS), where multiplication (`*`) has higher precedence than addition (`+`).
+
+So:
+- `3 * 4 = 12`
+- `2 + 12 = 14`
+
+Thus, `print(2 + 3 * 4)` outputs `14`."
+C3,Coding,qwen/qwen3-next-80b-a3b-instruct,Which data structure uses the FIFO principle?,"The data structure that uses the **FIFO (First In, First Out)** principle is a **queue**.
+
+In a queue, the first element added is the first one to be removed, similar to a line of people waiting for service."
+C4,Coding,qwen/qwen3-next-80b-a3b-instruct,What does HTML stand for?,HTML stands for **HyperText Markup Language**.
+C5,Coding,qwen/qwen3-next-80b-a3b-instruct,What symbol is used to write a comment in Python?,"In Python, the **hash symbol** (`#`) is used to write a comment.
+
+Anything following `#` on a line is ignored by the Python interpreter.
+
+Example:
+```python
+# This is a comment
+print(""Hello, world!"")  # This is also a comment
+```"
+O1,Geography,qwen/qwen3-next-80b-a3b-instruct,What is the capital city of Japan?,The capital city of Japan is Tokyo.
+O2,Geography,qwen/qwen3-next-80b-a3b-instruct,Which is the largest ocean on Earth?,The largest ocean on Earth is the **Pacific Ocean**. It covers approximately 63 million square miles (165 million square kilometers) and contains more than half of the free water on Earth. It stretches from the Arctic in the north to the Southern Ocean in the south and is bounded by Asia and Australia to the west and the Americas to the east.
+O3,Economics,qwen/qwen3-next-80b-a3b-instruct,What does GDP stand for?,GDP stands for **Gross Domestic Product**.
+O4,Sports,qwen/qwen3-next-80b-a3b-instruct,How many players are there in a standard football (soccer) team on the field?,A standard football (soccer) team has **11 players** on the field during play.
+O5,Technology,qwen/qwen3-next-80b-a3b-instruct,What does CPU stand for?,CPU stands for **Central Processing Unit**.
+O6,Geography,qwen/qwen3-next-80b-a3b-instruct,Which continent is the Sahara Desert located in?,The Sahara Desert is located in **Africa**.
+O7,Economics,qwen/qwen3-next-80b-a3b-instruct,What is inflation?,"Inflation is the rate at which the general level of prices for goods and services rises over time, leading to a decrease in the purchasing power of money. In other words, as inflation increases, each unit of currency buys fewer goods and services. It is typically measured as an annual percentage change using indices like the Consumer Price Index (CPI). Moderate inflation is often a sign of a growing economy, but high or unpredictable inflation can erode savings and disrupt economic stability."
+O8,Sports,qwen/qwen3-next-80b-a3b-instruct,In which sport is the term 'checkmate' used?,"The term **'checkmate'** is used in the sport of **chess**.
+
+It refers to a position in which a player's king is under threat of capture (in ""check"") and there is no legal move to escape that threat, thus ending the game in victory for the attacking player."
+O9,Technology,qwen/qwen3-next-80b-a3b-instruct,What is the primary purpose of an operating system?,"The primary purpose of an operating system (OS) is to manage computer hardware and software resources and provide a common platform for applications to run on. It acts as an intermediary between users and the computer hardware, handling tasks such as:
+
+- Memory management  
+- Process scheduling  
+- File system management  
+- Input/output device control  
+- Providing a user interface (command-line or graphical)
+
+In essence, the OS ensures efficient, secure, and convenient use of the computer system."
+O10,Current Knowledge,qwen/qwen3-next-80b-a3b-instruct,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called **evaporation**.
+O11,Geography,qwen/qwen3-next-80b-a3b-instruct,Which river is the longest in the world?,"The Nile River is traditionally considered the longest river in the world, with a length of approximately **6,650 km (4,130 miles)**. However, some recent measurements suggest the Amazon River may be slightly longer—around **6,800 km (4,225 miles)**—depending on how its source is defined. 
+
+While there is ongoing scientific debate, **the Nile is still most commonly cited as the longest** in authoritative sources like the Guinness World Records and major encyclopedias."
+O12,Technology,qwen/qwen3-next-80b-a3b-instruct,What does URL stand for?,URL stands for **Uniform Resource Locator**.
+O13,Health,qwen/qwen3-next-80b-a3b-instruct,Why is regular exercise important?,"Regular exercise is important because it:
+
+1. **Improves physical health** – Strengthens the heart, lungs, and muscles; helps maintain a healthy weight; and reduces the risk of chronic diseases like heart disease, type 2 diabetes, and some cancers.
+
+2. **Boosts mental health** – Releases endorphins that reduce stress, anxiety, and depression; improves mood and sleep quality.
+
+3. **Enhances cognitive function** – Promotes brain health, improves memory and learning, and may lower the risk of dementia.
+
+4. **Increases energy and stamina** – Improves circulation and oxygen delivery, making daily activities easier.
+
+5. **Supports longevity and quality of life** – Helps maintain mobility, balance, and independence as you age.
+
+Consistent physical activity is a cornerstone of overall well-being."
+O14,Environment,qwen/qwen3-next-80b-a3b-instruct,What is renewable energy?,"Renewable energy is energy derived from natural sources that are constantly replenished and have a minimal environmental impact. Examples include:
+
+- **Solar energy** (from sunlight)  
+- **Wind energy** (from wind turbines)  
+- **Hydropower** (from flowing water)  
+- **Geothermal energy** (from heat within the Earth)  
+- **Biomass** (from organic materials like plants and waste)
+
+Unlike fossil fuels, renewable energy sources are sustainable, produce little to no greenhouse gas emissions during operation, and help reduce dependence on finite resources."
+O15,Astronomy,qwen/qwen3-next-80b-a3b-instruct,What galaxy contains our Solar System?,Our Solar System is located in the **Milky Way Galaxy**.
+H1,History,meta-llama/llama-3.3-70b-instruct,Who was the first President of the United States?,George Washington was the first President of the United States.
+H2,History,meta-llama/llama-3.3-70b-instruct,In which year did World War II end?,"World War II ended in 1945. The war in Europe ended on May 8, 1945, and the war in the Pacific ended on September 2, 1945."
+H3,History,meta-llama/llama-3.3-70b-instruct,Who built the Taj Mahal?,"The Taj Mahal was built by Mughal Emperor Shah Jahan in memory of his wife, Mumtaz Mahal. The construction was overseen by architect Ustad Ahmad Lahori and took around 22 years to complete, from 1632 to 1653."
+H4,History,meta-llama/llama-3.3-70b-instruct,What was the main purpose of the Magna Carta?,"The main purpose of the Magna Carta (also known as Magna Carta Libertatum) was to limit the power of the monarch (King John of England) and establish the principle that the king was not above the law. It protected the rights of the nobility and the common people, and established due process, trial by jury, and protection of individual rights. Signed in 1215, it is considered a cornerstone of democracy and a foundation for constitutional law."
+H5,History,meta-llama/llama-3.3-70b-instruct,Which civilization built Machu Picchu?,The Inca civilization built Machu Picchu in the 15th century.
+S1,Science,meta-llama/llama-3.3-70b-instruct,What is the chemical symbol for gold?,The chemical symbol for gold is Au.
+S2,Science,meta-llama/llama-3.3-70b-instruct,What planet is known as the Red Planet?,"Mars is known as the Red Planet due to its reddish appearance, which is caused by iron oxide in the planet's soil."
+S3,Science,meta-llama/llama-3.3-70b-instruct,What gas do plants absorb during photosynthesis?,Plants absorb carbon dioxide (CO2) during photosynthesis.
+S4,Science,meta-llama/llama-3.3-70b-instruct,What is the boiling point of water at standard atmospheric pressure?,The boiling point of water at standard atmospheric pressure (101.325 kPa) is 100°C or 212°F.
+S5,Science,meta-llama/llama-3.3-70b-instruct,Which part of the cell contains genetic material?,"The nucleus contains the genetic material, also known as DNA (deoxyribonucleic acid)."
+M1,Mathematics,meta-llama/llama-3.3-70b-instruct,What is the value of 15 multiplied by 12?,15 * 12 = 180.
+M2,Mathematics,meta-llama/llama-3.3-70b-instruct,Solve for x: 2x + 6 = 14.,"To solve for x, subtract 6 from both sides:
+
+2x + 6 - 6 = 14 - 6
+2x = 8
+
+Then, divide both sides by 2:
+
+2x / 2 = 8 / 2
+x = 4
+
+The answer is x = 4."
+M3,Mathematics,meta-llama/llama-3.3-70b-instruct,What is the square root of 144?,The square root of 144 is 12.
+M4,Mathematics,meta-llama/llama-3.3-70b-instruct,What is the area of a rectangle with length 8 and width 5?,"The area of a rectangle is length × width. 
+Area = 8 × 5 = 40."
+M5,Mathematics,meta-llama/llama-3.3-70b-instruct,What is 25 percent of 200?,25% of 200 is 50.
+P1,Philosophy,meta-llama/llama-3.3-70b-instruct,Who wrote 'The Republic'?,Plato wrote 'The Republic'.
+P2,Philosophy,meta-llama/llama-3.3-70b-instruct,What is utilitarianism?,Utilitarianism is an ethical theory that suggests actions are right if they promote the greatest happiness for the greatest number of people. It aims to maximize overall well-being and minimize suffering. The theory was developed by philosophers such as Jeremy Bentham and John Stuart Mill.
+P3,Philosophy,meta-llama/llama-3.3-70b-instruct,"Which philosopher is known for the statement 'I think, therefore I am'?","René Descartes is known for the statement 'I think, therefore I am' (Latin: 'Cogito, ergo sum')."
+P4,Philosophy,meta-llama/llama-3.3-70b-instruct,What is existentialism primarily concerned with?,"Existentialism is primarily concerned with individual freedom, choice, and responsibility, and the inherent meaninglessness of life, which requires individuals to create their own meaning and purpose."
+P5,Philosophy,meta-llama/llama-3.3-70b-instruct,Who taught Alexander the Great?,"Alexander the Great was taught by Aristotle, the famous Greek philosopher and polymath. Aristotle was hired by King Philip II of Macedon, Alexander's father, to tutor the young prince in philosophy, literature, and science. Aristotle's teachings had a significant influence on Alexander's intellectual and philosophical development."
+E1,English,meta-llama/llama-3.3-70b-instruct,Identify the adjective in the sentence: 'The blue car is fast.',"The adjectives in the sentence are ""blue"" and ""fast""."
+E2,English,meta-llama/llama-3.3-70b-instruct,What is the past tense of the verb 'go'?,The past tense of the verb 'go' is 'went'.
+E3,English,meta-llama/llama-3.3-70b-instruct,What is a synonym for 'happy'?,A synonym for 'happy' is 'joyful'.
+E4,English,meta-llama/llama-3.3-70b-instruct,Correct the sentence: 'She do not like apples.',The corrected sentence is: 'She does not like apples.'
+E5,English,meta-llama/llama-3.3-70b-instruct,What is the main verb in the sentence: 'They are studying mathematics.',"The main verb in the sentence is ""are studying"". However, if you're looking for a single main verb, it would be ""studying"", with ""are"" being an auxiliary verb."
+R1,General Reasoning,meta-llama/llama-3.3-70b-instruct,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?","Yes, we can conclude that some roses may fade quickly, but not necessarily that some roses do fade quickly. The argument is valid, but the conclusion is only a possibility, not a certainty."
+R2,General Reasoning,meta-llama/llama-3.3-70b-instruct,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,"To find the distance traveled in 3 hours, multiply the speed (60 km/h) by the time (3 hours). 
+
+Distance = Speed * Time
+Distance = 60 km/h * 3 h
+Distance = 180 km
+
+The train will travel 180 kilometers in 3 hours."
+R3,General Reasoning,meta-llama/llama-3.3-70b-instruct,"If today is Monday, what day will it be after 10 days?","If today is Monday, after 10 days it will be the next Thursday (since 7 days make a week, and 10 days is 7 days + 3 days)."
+R4,General Reasoning,meta-llama/llama-3.3-70b-instruct,"Which number comes next in the sequence: 2, 4, 8, 16, ?","The pattern of the sequence is obtained by doubling the previous term. Therefore, the next number in the sequence would be:
+
+2, 4, 8, 16, 32
+
+So, the answer is 32."
+R5,General Reasoning,meta-llama/llama-3.3-70b-instruct,"If a box contains only red and blue balls and there are no blue balls, what color are all the balls?",All the balls are red.
+C1,Coding,meta-llama/llama-3.3-70b-instruct,What keyword is used to define a function in Python?,`def`
+C2,Coding,meta-llama/llama-3.3-70b-instruct,What is the output of print(2 + 3 * 4) in Python?,"**14**
+
+Explanation: In Python, the `*` operator has higher precedence than the `+` operator. So, the expression `2 + 3 * 4` is evaluated as follows:
+
+1. `3 * 4` = 12
+2. `2 + 12` = 14
+
+Therefore, the output of `print(2 + 3 * 4)` is **14**."
+C3,Coding,meta-llama/llama-3.3-70b-instruct,Which data structure uses the FIFO principle?,A Queue uses the FIFO (First-In-First-Out) principle.
+C4,Coding,meta-llama/llama-3.3-70b-instruct,What does HTML stand for?,HTML stands for HyperText Markup Language.
+C5,Coding,meta-llama/llama-3.3-70b-instruct,What symbol is used to write a comment in Python?,"In Python, the symbol used to write a comment is `#`. Anything written after `#` on a line is ignored by the interpreter."
+O1,Geography,meta-llama/llama-3.3-70b-instruct,What is the capital city of Japan?,The capital city of Japan is Tokyo.
+O2,Geography,meta-llama/llama-3.3-70b-instruct,Which is the largest ocean on Earth?,"The Pacific Ocean is the largest ocean on Earth, covering approximately 155.6 million square kilometers (60.1 million square miles) or about 46% of the Earth's total ocean area."
+O3,Economics,meta-llama/llama-3.3-70b-instruct,What does GDP stand for?,GDP stands for Gross Domestic Product.
+O4,Sports,meta-llama/llama-3.3-70b-instruct,How many players are there in a standard football (soccer) team on the field?,"In a standard football (soccer) team, there are 11 players on the field."
+O5,Technology,meta-llama/llama-3.3-70b-instruct,What does CPU stand for?,CPU stands for Central Processing Unit.
+O6,Geography,meta-llama/llama-3.3-70b-instruct,Which continent is the Sahara Desert located in?,The Sahara Desert is located in Africa.
+O7,Economics,meta-llama/llama-3.3-70b-instruct,What is inflation?,"Inflation is a sustained increase in the general price level of goods and services in an economy over time, resulting in a decrease in the purchasing power of money."
+O8,Sports,meta-llama/llama-3.3-70b-instruct,In which sport is the term 'checkmate' used?,"The term 'checkmate' is used in the sport of chess. It refers to a situation where a player's king is under attack and cannot escape capture, resulting in the end of the game."
+O9,Technology,meta-llama/llama-3.3-70b-instruct,What is the primary purpose of an operating system?,"The primary purpose of an operating system (OS) is to manage computer hardware resources and provide a platform for running application software, allowing users to interact with the computer in a convenient and efficient way."
+O10,Current Knowledge,meta-llama/llama-3.3-70b-instruct,What is the process by which water changes from liquid to gas called?,The process by which water changes from liquid to gas is called evaporation.
+O11,Geography,meta-llama/llama-3.3-70b-instruct,Which river is the longest in the world?,"The Nile River is the longest river in the world, stretching approximately 6,695 kilometers (4,160 miles) from its source in Burundi to its delta on the Mediterranean Sea in Egypt."
+O12,Technology,meta-llama/llama-3.3-70b-instruct,What does URL stand for?,URL stands for Uniform Resource Locator.
+O13,Health,meta-llama/llama-3.3-70b-instruct,Why is regular exercise important?,"Regular exercise is important because it:
+
+1. Improves physical health (reduces risk of chronic diseases, such as heart disease and diabetes)
+2. Boosts mental health (reduces stress, anxiety, and depression)
+3. Increases energy levels
+4. Supports weight management
+5. Enhances sleep quality
+6. Improves cognitive function and concentration
+
+Overall, regular exercise can help you live a longer, healthier, and happier life."
+O14,Environment,meta-llama/llama-3.3-70b-instruct,What is renewable energy?,"Renewable energy is energy that comes from natural resources that can be replenished over time, such as:
+
+1. Solar energy (from the sun)
+2. Wind energy (from wind)
+3. Hydro energy (from water)
+4. Geothermal energy (from heat inside the Earth)
+5. Biomass energy (from organic matter)
+
+These sources are sustainable and do not deplete finite resources, unlike fossil fuels."
+O15,Astronomy,meta-llama/llama-3.3-70b-instruct,What galaxy contains our Solar System?,The Milky Way galaxy contains our Solar System.
+H1,History,openai/gpt-oss-120b,Who was the first President of the United States?,"The first President of the United States was **George Washington**, who served from 1789 to 1797."
+H2,History,openai/gpt-oss-120b,In which year did World War II end?,World War II ended in **1945**.
+H3,History,openai/gpt-oss-120b,Who built the Taj Mahal?,"The Taj Mahal was commissioned by the Mughal emperor **Shah Jahan** in memory of his beloved wife Mumtaz Mahal. Its chief architect was **Ustad Ahmad Lahori**, who oversaw the construction that began in 1632 and was largely completed by 1653."
+H4,History,openai/gpt-oss-120b,What was the main purpose of the Magna Carta?,"The Magna Carta (1215) was created to **limit the absolute power of the English king and protect the rights of the realm’s leading subjects**—especially the barons—by establishing that the monarch was subject to the law. Its main purpose was to secure:
+
+1. **Rule of law over royal prerogative** – the king could not levy taxes, imprison, or seize property arbitrarily without consent of the kingdom’s council (later the Parliament).  
+2. **Protection of feudal rights and property** – guarantees for barons and free men against unlawful seizure of lands and excessive fines.  
+3. **Due‑process guarantees** – the promise of “lawful judgment” and “fair trial” before any punishment could be imposed.  
+
+In short, the Magna Carta was a foundational charter that forced King John to acknowledge that even the sovereign must obey established legal limits, laying the groundwork for constitutional government and individual liberties."
+H5,History,openai/gpt-oss-120b,Which civilization built Machu Picchu?,"Machu Picchu was built by the **Inca civilization** in the mid‑15th century, during the reign of the Inca emperor Pachacuti."
+S1,Science,openai/gpt-oss-120b,What is the chemical symbol for gold?,The chemical symbol for gold is **Au**.
+S2,Science,openai/gpt-oss-120b,What planet is known as the Red Planet?,Mars is known as the Red Planet.
+S3,Science,openai/gpt-oss-120b,What gas do plants absorb during photosynthesis?,Plants absorb carbon dioxide (CO₂) from the atmosphere during photosynthesis.
+S4,Science,openai/gpt-oss-120b,What is the boiling point of water at standard atmospheric pressure?,"At standard atmospheric pressure (1 atm or 101.3 kPa), water boils at **100 °C** (which is **212 °F**)."
+S5,Science,openai/gpt-oss-120b,Which part of the cell contains genetic material?,"The genetic material (DNA) is housed primarily in the **nucleus** of eukaryotic cells.  
+
+- **Eukaryotes**: DNA is organized into chromosomes within the nucleus. Mitochondria (and chloroplasts in plants) also contain their own small circular DNA genomes.  
+- **Prokaryotes** (bacteria and archaea): DNA is not enclosed by a nucleus; it resides in a region called the **nucleoid**, which is a dense, irregularly shaped area of the cytoplasm.  
+
+So, the nucleus (or nucleoid in prokaryotes) is the main cellular compartment that contains the cell"
+M1,Mathematics,openai/gpt-oss-120b,What is the value of 15 multiplied by 12?,15 × 12 = 180.
+M2,Mathematics,openai/gpt-oss-120b,Solve for x: 2x + 6 = 14.,"\(2x + 6 = 14\)
+
+1. Subtract 6 from both sides:  
+   \(2x = 8\)
+
+2. Divide both sides by 2:  
+   \(x = 4\)
+
+\[
+\boxed{x = 4}
+\]"
+M3,Mathematics,openai/gpt-oss-120b,What is the square root of 144?,"The square root of 144 is 12 (the principal, non‑negative root).  (Both +12 and –12 are solutions to x² = 144.)"
+M4,Mathematics,openai/gpt-oss-120b,What is the area of a rectangle with length 8 and width 5?,"The area \(A\) of a rectangle is found by multiplying its length \(L\) by its width \(W\):
+
+\[
+A = L \times W = 8 \times 5 = 40
+\]
+
+So, the rectangle’s area is **40 square units**."
+M5,Mathematics,openai/gpt-oss-120b,What is 25 percent of 200?,25 % of 200 is \(0.25 \times 200 = 50\).
+P1,Philosophy,openai/gpt-oss-120b,Who wrote 'The Republic'?,"""The Republic"" was written by the ancient Greek philosopher **Plato**."
+P2,Philosophy,openai/gpt-oss-120b,What is utilitarianism?,"Utilitarianism is an ethical theory that judges the rightness or wrongness of actions based on their consequences, specifically aiming to maximize overall happiness or well‑being. In its classic form, often summarized as “the greatest happiness for the greatest number,” an action is considered morally good if it produces the most net pleasure (or reduces suffering) for the most people compared to any alternative action. The theory was developed by philosophers such as Jeremy Bentham and John Stuart Mill and is a form of consequentialism."
+P3,Philosophy,openai/gpt-oss-120b,"Which philosopher is known for the statement 'I think, therefore I am'?","The statement “I think, therefore I am” (Latin: *Cogito, ergo sum*) is attributed to the French philosopher **René Descartes**."
+P4,Philosophy,openai/gpt-oss-120b,What is existentialism primarily concerned with?,"Existentialism is primarily concerned with **human existence and the conditions of individual life**—how we experience, choose, and give meaning to our own being. Its central themes include:
+
+- **Freedom and Choice:** Humans are fundamentally free to make choices, and those choices define who we are.  
+- **Responsibility:** With freedom comes responsibility for the consequences of our actions.  
+- **Authenticity:** Living in accordance with one’s true self rather than conforming to external pressures or “bad faith.”  
+- **Absurdity and Meaning:** Confronting a world that lacks inherent meaning and creating personal meaning despite that.  
+- **Existential Angst/Anxiety:** The emotional response to confronting freedom, mortality, and the lack of predetermined purpose.
+
+In short, existentialism focuses on the lived experience of individuals, emphasizing that existence precedes essence and that we must actively shape our own lives."
+P5,Philosophy,openai/gpt-oss-120b,Who taught Alexander the Great?,"Alexander the Great was tutored by the philosopher **Aristotle**, who instructed him from about age 13 to 16. (His early upbringing was also overseen by his mother Olympias and his father Philip II.)"
+E1,English,openai/gpt-oss-120b,Identify the adjective in the sentence: 'The blue car is fast.',"The adjective is **blue** (it describes the noun “car”). “Fast” is also an adjective, but it functions as a predicative adjective after the verb “is.”"
+E2,English,openai/gpt-oss-120b,What is the past tense of the verb 'go'?,The past tense of **go** is **went**.
+E3,English,openai/gpt-oss-120b,What is a synonym for 'happy'?,"A common synonym for “happy” is **joyful**. Other options include: content, pleased, delighted, elated, glad, and cheerful."
+E4,English,openai/gpt-oss-120b,Correct the sentence: 'She do not like apples.',"**Corrected sentence:**  
+*She does not like apples.*"
+E5,English,openai/gpt-oss-120b,What is the main verb in the sentence: 'They are studying mathematics.',"The main (lexical) verb is **“studying.”**  
+In the verb phrase “are studying,” “are” functions as an auxiliary verb, while “studying” carries the core meaning."
+R1,General Reasoning,openai/gpt-oss-120b,"If all roses are flowers and some flowers fade quickly, can we conclude that some roses fade quickly?","No.  
+
+The premises are:
+
+1. **All roses are flowers.**  
+   (Roses ⊆ Flowers)
+
+2. **Some flowers fade quickly.**  
+   (∃ x [Flower(x) ∧ FadeQuickly(x)])
+
+From (1) we know that every rose is a flower, but we do not know anything about *which* flowers fade quickly. The “some” in premise 2 could refer to a subset of flowers that contains no roses at all (e.g., only daisies or tulips). Therefore the conclusion “some roses fade quickly” (∃ x [Rose(x) ∧ FadeQuickly(x)]) does not logically follow; it is possible but not guaranteed.
+
+So we cannot validly conclude that some roses fade quickly."
+R2,General Reasoning,openai/gpt-oss-120b,A train travels 60 kilometers in 1 hour. How far will it travel in 3 hours at the same speed?,"The train’s speed is  
+
+\[
+\text{speed} = \frac{60\text{ km}}{1\text{ h}} = 60\text{ km/h}.
+\]
+
+At the same speed for 3 hours:
+
+\[
+\text{distance} = 60\text{ km/h} \times 3\text{ h} = 180\text{ km}.
+\]
+
+**It will travel 180 kilometers.**"
+R3,General Reasoning,openai/gpt-oss-120b,"If today is Monday, what day will it be after 10 days?","Ten days later is three days beyond a full week (10 mod 7 = 3). Starting from Monday, three days later is **Thursday**."
+R4,General Reasoning,openai/gpt-oss-120b,"Which number comes next in the sequence: 2, 4, 8, 16, ?","The sequence doubles each term (2 × 2 = 4, 4 × 2 = 8, 8 × 2 = 16).  
+So the next number is **32**."
+R5,General Reasoning,openai/gpt-oss-120b,"If a box contains only red and blue balls and there are no blue balls, what color are all the balls?",All the balls are red.
+C1,Coding,openai/gpt-oss-120b,What keyword is used to define a function in Python?,"The keyword is **`def`**. Use it like:
+
+```python
+def my_function():
+    # code here
+```"
+C2,Coding,openai/gpt-oss-120b,What is the output of print(2 + 3 * 4) in Python?,"The expression evaluates as follows:
+
+- Multiplication first: 3 * 4 = 12  
+- Then addition: 2 + 12 = 14  
+
+So `print(2 + 3 * 4)` outputs:
+
+```
+14
+```"
+C3,Coding,openai/gpt-oss-120b,Which data structure uses the FIFO principle?,"The data structure that follows the **First‑In‑First‑Out (FIFO)** principle is a **queue**. In a queue, elements are added at the rear (enqueue) and removed from the front (dequeue), so the earliest inserted element is the first to be removed."
+C4,Coding,openai/gpt-oss-120b,What does HTML stand for?,HTML stands for **HyperText Markup Language**. It’s the standard markup language used to create and structure content on the World Wide Web.
+C5,Coding,openai/gpt-oss-120b,What symbol is used to write a comment in Python?,"In Python, comments start with the **hash symbol (`#`)**. Anything following `#` on a line is ignored by the interpreter."
+O1,Geography,openai/gpt-oss-120b,What is the capital city of Japan?,The capital city of Japan is **Tokyo**.
+O2,Geography,openai/gpt-oss-120b,Which is the largest ocean on Earth?,"The **Pacific Ocean** is the largest ocean on Earth. It covers about 63 million square miles (≈165 million km²), more than half of the planet’s oceanic surface."
+O3,Economics,openai/gpt-oss-120b,What does GDP stand for?,"GDP stands for **Gross Domestic Product**. It measures the total monetary value of all finished goods and services produced within a country's borders over a specific time period, typically annually or quarterly."
+O4,Sports,openai/gpt-oss-120b,How many players are there in a standard football (soccer) team on the field?,"A standard football (soccer) team fields **11 players** on the pitch (including the goalkeeper), so there are 22 players total on the field when both teams are playing."
+O5,Technology,openai/gpt-oss-120b,What does CPU stand for?,"CPU stands for **Central Processing Unit**. It’s the primary component of a computer that performs most of the processing tasks, executing instructions and managing data."
+O6,Geography,openai/gpt-oss-120b,Which continent is the Sahara Desert located in?,The Sahara Desert is located on the continent of **Africa**.
+O7,Economics,openai/gpt-oss-120b,What is inflation?,"**Inflation** is the sustained rise in the overall price level of goods and services in an economy over time. As prices increase, each unit of currency buys fewer items, meaning the purchasing power of money declines.
+
+Key points:
+
+| Aspect | Description |
+|--------|-------------|
+| **Measurement** | Typically tracked with price indexes such as the Consumer Price Index (CPI) or the Producer Price Index (PPI). |
+| **Common Causes** | • **Demand‑pull:** Too much aggregate demand chasing too few goods.<br>• **Cost‑push:** Rising production costs (e.g., wages, raw materials) are passed to consumers.<br>• **Built‑in (wage‑price spiral):** Expectations of higher prices lead to higher wage demands, which further raise prices. |
+| **Effects** | • Reduces real income and savings value.<br>• Can erode fixed‑income purchasing power.<br>• May influence interest rates, monetary policy, and investment decisions. |
+| **Desired vs. Undesired** | Central banks usually aim for a low, stable inflation rate (e.g., ~2% per year) to avoid deflation and to support economic growth. High or volatile inflation is generally considered harmful. |
+
+In short, inflation reflects how much more money is needed to purchase the same basket of goods and services compared with a previous period."
+O8,Sports,openai/gpt-oss-120b,In which sport is the term 'checkmate' used?,The term **“checkmate”** is used in **chess** (often classified as a mind sport).
+O9,Technology,openai/gpt-oss-120b,What is the primary purpose of an operating system?,"The primary purpose of an operating system (OS) is to act as an intermediary between computer hardware and the user’s applications. It manages and coordinates hardware resources (CPU, memory, storage, I/O devices) and provides essential services—such as process scheduling, memory allocation, file management, and security—so that software programs can run efficiently and users can interact with the system through a consistent interface."
+O10,Current Knowledge,openai/gpt-oss-120b,What is the process by which water changes from liquid to gas called?,"The transition of water from a liquid to a gas is called **vaporization**. When it occurs at the surface below the boiling point, it’s specifically called **evaporation**; when it happens throughout the liquid at its boiling point, it’s called **boiling**."
+O11,Geography,openai/gpt-oss-120b,Which river is the longest in the world?,"The river most commonly cited as the longest in the world is the **Nile River**, which runs about **6,650 km (4,130 mi)** from its headwaters in Burundi and Rwanda to the Mediterranean Sea.
+
+However, recent measurements using satellite data and new source definitions suggest the **Amazon River** may be slightly longer—around **7,000 km (4,350 mi)**—if its most distant tributary in the Andes is counted as the source.  
+
+So:
+
+- **Traditional longest:** Nile (~6,650 km)  
+- **Potential longest (new evidence):** Amazon (~7,000 km)  
+
+Both rivers are contenders, and the answer depends on the criteria used for measuring length."
+O12,Technology,openai/gpt-oss-120b,What does URL stand for?,URL stands for **Uniform Resource Locator**. It’s the address used to locate resources (like web pages) on the Internet.
+O13,Health,openai/gpt-oss-120b,Why is regular exercise important?,"**Regular exercise matters because it benefits virtually every system in your body and mind.**  
+
+| Area | How exercise helps |
+|------|--------------------|
+| **Cardiovascular health** | Strengthens the heart, improves blood‑vessel elasticity, lowers blood pressure and reduces “bad” LDL cholesterol. |
+| **Weight & metabolism** | Burns calories, builds muscle (which raises resting metabolic rate), and improves insulin sensitivity, lowering the risk of obesity and type 2 diabetes. |
+| **Musculoskeletal health** | Increases bone density, joint stability, and muscle strength, helping prevent osteoporosis, arthritis pain, and falls as you age. |
+| **Immune function** | Moderate, consistent activity boosts circulation of immune cells and can reduce the frequency of infections. |
+| **Mental health** | Releases endorphins and other neurotransmitters that lift mood, reduce anxiety and depression, and improve stress resilience. |
+| **Cognitive function** | Enhances blood flow to the brain, supports neuroplasticity, and is linked to better memory, attention, and lower risk of dementia. |
+| **Sleep quality** | Promotes deeper, more restorative sleep and helps regulate the sleep‑wake cycle. |
+| **Longevity & disease prevention** | Regular activity is associated with a 20‑30 % lower risk of premature death and reduces the incidence of heart disease, certain cancers, stroke, and metabolic disorders. |
+| **Functional independence** | Improves balance, coordination, and endurance, making everyday tasks (climbing stairs, carrying groceries) easier and reducing injury risk. |
+
+**Bottom line:** Even modest, consistent exercise (e.g., 150 minutes of moderate aerobic activity + two strength‑training sessions per week) delivers a cascade of health benefits that keep you physically stronger, mentally sharper, and less prone to chronic disease."
+O14,Environment,openai/gpt-oss-120b,What is renewable energy?,"**Renewable energy** is power generated from resources that are naturally replenished on a human‑timescale, meaning they won’t be depleted by regular use. Unlike fossil fuels, these sources regenerate quickly through natural processes.
+
+| Source | How It Works | Typical Uses |
+|--------|--------------|--------------|
+| **Solar** (photovoltaic & thermal) | Sunlight is converted directly into electricity (PV) or heat (solar thermal). | Rooftop panels, solar farms, water heating. |
+| **Wind** | Wind turbines capture kinetic energy of moving air and turn it into electricity. | Utility‑scale wind farms, offshore turbines, small‑scale turbines for farms or homes. |
+| **Hydropower** | Flowing water drives turbines to produce electricity. | Large dams, run‑of‑river plants, tidal and wave energy. |
+| **Biomass** | Organic material (wood, agricultural waste, algae) is burned or processed to release heat or produce biofuels. | Heating, electricity, bio‑ethanol, biodiesel. |
+| **Geothermal** | Heat from Earth’s interior is used for direct heating or to generate steam for turbines. | District heating, geothermal power plants. |
+| **Ocean** (tidal, wave, ocean‑thermal) | Tidal currents, wave motion, or temperature differences drive generators. | Emerging commercial projects, niche applications. |
+
+### Key Characteristics
+- **Sustainability:** The resource replenishes naturally (sunlight, wind, water cycle, etc.).
+- **Low Carbon Emissions:** Production emits little to no greenhouse gases compared with coal, oil, or natural gas.
+- **Distributed Potential:** Can be generated close to where it’s used (e.g., rooftop solar), reducing transmission losses.
+- **Variable Output:** Many renewables depend on weather or time of day, requiring storage or grid management solutions.
+
+### Why It Matters
+- **Climate Mitigation:** Cuts CO₂ and other pollutants, helping meet global climate targets.
+- **Energy Security:** Reduces dependence on imported fossil fuels.
+- **Economic Growth:** Creates jobs in manufacturing, installation, and maintenance.
+- **Public Health:** Decreases air‑quality‑related illnesses from fossil‑fuel combustion.
+
+In short, renewable energy harnesses naturally occurring, quickly replenished forces—sunlight, wind, water, heat from the Earth, and organic matter—to produce power with minimal environmental impact."
+O15,Astronomy,openai/gpt-oss-120b,What galaxy contains our Solar System?,Our Solar System is located within the **Milky Way galaxy**.
