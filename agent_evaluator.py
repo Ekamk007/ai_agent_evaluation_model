@@ -19,7 +19,7 @@ import time
 # STEP 2: OPENROUTER CONFIG
 # ================================
 
-API_KEY =  "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"
+API_KEY =  "API_KEY"
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
